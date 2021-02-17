@@ -41,7 +41,7 @@ const Loading = () => {
         </div>
       </div>
       <div className="footer">
-        <a href="githb.com">源码</a>
+        <a href="https://github.com/buzuosheng/loading">源码</a>
       </div>
     </div>
   );
