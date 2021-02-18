@@ -4,45 +4,30 @@ import Loading3 from "./svg/loading3";
 import Loading4 from "./svg/loading4";
 import Loading5 from "./svg/loading5";
 import Loading6 from "./svg/loading6";
-import Loading7 from "./svg/loading8";
-import Loading8 from "./svg/loading7";
+import Loading7 from "./svg/loading7";
+import Loading8 from "./svg/loading8";
+import React from "react";
+
 import "./loading.css";
 
-const Loading = () => {
+const Loading = ({ type, width, height, color }) => {
+  const ldObj = {
+    1: <Loading1 width={width} height={height} color={color} />,
+    2: <Loading2 width={width} height={height} color={color} />,
+    3: <Loading3 width={width} height={height} color={color} />,
+    4: <Loading4 width={width} height={height} color={color} />,
+    5: <Loading5 width={width} height={height} color={color} />,
+    6: <Loading6 width={width} height={height} color={color} />,
+    7: <Loading7 width={width} height={height} color={color} />,
+    8: <Loading8 width={width} height={height} color={color} />,
+  };
   return (
     <div>
-      <div className="header">
-        <h1>8种loading样式</h1>
-      </div>
-      <div className="loading-wrap">
-        <div className="loading">
-          <Loading1 />
-        </div>
-        <div className="loading">
-          <Loading2 />
-        </div>
-        <div className="loading">
-          <Loading3 />
-        </div>
-        <div className="loading">
-          <Loading4 />
-        </div>
-        <div className="loading">
-          <Loading5 />
-        </div>
-        <div className="loading">
-          <Loading6 />
-        </div>
-        <div className="loading">
-          <Loading7 />
-        </div>
-        <div className="loading">
-          <Loading8 />
-        </div>
-      </div>
-      <div className="footer">
-        <a href="https://github.com/buzuosheng/loading">源码</a>
-      </div>
+      {type ? (
+        ldObj[type]
+      ) : (
+        <Loading1 width={width} height={height} color={color} />
+      )}
     </div>
   );
 };

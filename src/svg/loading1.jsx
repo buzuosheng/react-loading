@@ -1,12 +1,12 @@
-const Loading1 = () => {
+import React from "react";
+
+const Loading1 = ({ width, height, color }) => {
   return (
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      x="0px"
-      y="0px"
-      width="40px"
-      height="40px"
+      width={width || "40px"}
+      height={height || "40px"}
       viewBox="0 0 40 40"
       enable-background="new 0 0 40 40"
     >
@@ -18,7 +18,7 @@ const Loading1 = () => {
         c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"
       />
       <path
-        fill="#1890ff"
+        fill={color || "#1890ff"}
         d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
         C22.32,8.481,24.301,9.057,26.013,10.047z"
       >

@@ -1,16 +1,14 @@
-const Loading7 = () => {
+const Loading7 = ({ width, height, color }) => {
   return (
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      x="0px"
-      y="0px"
-      width="24px"
-      height="30px"
+      width={width || "24px"}
+      height={height || "30px"}
       viewBox="0 0 24 30"
       enable-background="new 0 0 50 50"
     >
-      <rect x="0" y="0" width="4" height="20" fill="#1890ff">
+      <rect x="0" y="0" width="4" height="20" fill={color || "#1890ff"}>
         <animate
           attributeName="opacity"
           attributeType="XML"
@@ -20,7 +18,7 @@ const Loading7 = () => {
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="7" y="0" width="4" height="20" fill="#1890ff">
+      <rect x="7" y="0" width="4" height="20" fill={color || "#1890ff"}>
         <animate
           attributeName="opacity"
           attributeType="XML"
@@ -30,7 +28,7 @@ const Loading7 = () => {
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="14" y="0" width="4" height="20" fill="#1890ff">
+      <rect x="14" y="0" width="4" height="20" fill={color || "#1890ff"}>
         <animate
           attributeName="opacity"
           attributeType="XML"

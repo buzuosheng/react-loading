@@ -1,16 +1,14 @@
-const Loading6 = () => {
+const Loading6 = ({ width, height, color }) => {
   return (
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      x="0px"
-      y="0px"
-      width="24px"
-      height="30px"
+      width={width || "24px"}
+      height={height || "30px"}
       viewBox="0 0 24 30"
       senable-background="new 0 0 50 50"
     >
-      <rect x="0" y="13" width="4" height="5" fill="#1890ff">
+      <rect x="0" y="13" width="4" height="5" fill={color || "#1890ff"}>
         <animate
           attributeName="height"
           attributeType="XML"
@@ -28,7 +26,7 @@ const Loading6 = () => {
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="10" y="13" width="4" height="5" fill="#1890ff">
+      <rect x="10" y="13" width="4" height="5" fill={color || "#1890ff"}>
         <animate
           attributeName="height"
           attributeType="XML"
@@ -46,7 +44,7 @@ const Loading6 = () => {
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="20" y="13" width="4" height="5" fill="#1890ff">
+      <rect x="20" y="13" width="4" height="5" fill={color || "#1890ff"}>
         <animate
           attributeName="height"
           attributeType="XML"
