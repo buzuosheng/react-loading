@@ -5,6 +5,12 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.join(__dirname, "dist"),
+    libraryTarget: 'umd'
+
+  },
+  // optimization: false,
+  optimization: {
+    minimize: false,
   },
   resolve: {
     extensions: ['.jsx']
