@@ -6,7 +6,8 @@
   "main": "./dist/bundle.js",
   "private": false,
   "files": [
-    "src"
+    "src",
+    "dist"
   ],
   "devDependencies": {
     "@babel/cli": "^7.12.17",
