@@ -33,16 +33,6 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
-  "babel": {
-    "preset": [
-      [
-        "react-app",
-        {
-          "runtime": "automatic"
-        }
-      ]
-    ]
-  },
   "scripts": {
     "build": "webpack",
     "storybook": "start-storybook -p 6006",
