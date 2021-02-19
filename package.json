@@ -1,6 +1,6 @@
 {
   "name": "@buzuosheng/loading",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "buzuosheng",
   "repository": "git@github.com:buzuosheng/my-react-loading.git",
   "main": "./dist/bundle.js",
