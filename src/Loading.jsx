@@ -6,7 +6,6 @@ import Loading5 from "./svg/loading5";
 import Loading6 from "./svg/loading6";
 import Loading7 from "./svg/loading7";
 import Loading8 from "./svg/loading8";
-import React from "react";
 
 import "./loading.css";
 
