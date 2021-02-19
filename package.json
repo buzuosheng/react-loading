@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "buzuosheng",
   "repository": "git@github.com:buzuosheng/my-react-loading.git",
-  "main": "./src/Loading.jsx",
+  "main": "./dist/bundle.js",
   "private": false,
   "files": [
     "src"
