@@ -1,11 +1,11 @@
-import Loading1 from "./svg/loading1";
-import Loading2 from "./svg/loading2";
-import Loading3 from "./svg/loading3";
-import Loading4 from "./svg/loading4";
-import Loading5 from "./svg/loading5";
-import Loading6 from "./svg/loading6";
-import Loading7 from "./svg/loading7";
-import Loading8 from "./svg/loading8";
+import Loading1 from "./svg/loading1.jsx";
+import Loading2 from "./svg/loading2.jsx";
+import Loading3 from "./svg/loading3.jsx";
+import Loading4 from "./svg/loading4.jsx";
+import Loading5 from "./svg/loading1.jsx";
+import Loading6 from "./svg/loading6.jsx";
+import Loading7 from "./svg/loading7.jsx";
+import Loading8 from "./svg/loading8.jsx";
 
 import "./loading.css";
 
