@@ -1,3 +1,4 @@
+import React from "react";
 const Loading3 = ({ width, height, color }) => {
   return (
     <svg
