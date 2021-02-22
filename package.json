@@ -3,7 +3,7 @@
   "version": "2.3.0",
   "author": "buzuosheng",
   "repository": "git@github.com:buzuosheng/my-react-loading.git",
-  "main": "/dist/index.js",
+  "main": "/dist/bzs-loading-umd.js",
   "private": false,
   "files": [
     "src",
