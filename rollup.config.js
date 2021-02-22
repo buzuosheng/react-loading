@@ -12,20 +12,13 @@ export default {
   input: "src/Loading.jsx",
   output: [
     {
-      file: "dist/bzs-loading-umd.js",
-      format: "umd",
-      name: "buzuosheng-loading",
-      globals: {
-        react: 'React',
-      },
-    }, {
-      file: "dist/bzs-loading-es.js",
+      file: "dist/loading.es.js",
       format: "es",
       globals: {
         react: 'React',
       },
     }, {
-      file: pkg.main,
+      file: 'dist/loading.cjs',
       format: "cjs",
       globals: {
         react: 'React',
@@ -43,6 +36,6 @@ export default {
     }),
     commonjs(),
     resolve(),
-    terser(),
+    // terser(),
   ],
 }

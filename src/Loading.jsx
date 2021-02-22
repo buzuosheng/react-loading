@@ -1,3 +1,4 @@
+import React from "react";
 import Loading1 from "./svg/loading1.jsx";
 import Loading2 from "./svg/loading2.jsx";
 import Loading3 from "./svg/loading3.jsx";
