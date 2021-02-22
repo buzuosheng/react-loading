@@ -1,6 +1,6 @@
 {
   "name": "@buzuosheng/loading",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "author": "buzuosheng",
   "repository": "git@github.com:buzuosheng/my-react-loading.git",
   "main": "/dist/loading.cjs",
