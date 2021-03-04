@@ -7,7 +7,6 @@ export const Oval = (props) => {
       width={props.width || "40px"}
       height={props.height || "40px"}
       viewBox="0 0 40 40"
-      enable-background="new 0 0 40 40"
     >
       <path
         opacity="0.2"

@@ -7,7 +7,6 @@ export const Audio = (props) => {
       width={props.width || "24px"}
       height={props.height || "24px"}
       viewBox="0 0 24 24"
-      enable-background="new 0 0 50 50"
     >
       <rect x="0" y="0" width="4" height="7" fill={props.color || "#1890ff"}>
         <animateTransform

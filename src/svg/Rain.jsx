@@ -7,7 +7,6 @@ export const Rain = (props) => {
       width={props.width || "24px"}
       height={props.height || "30px"}
       viewBox="0 0 24 30"
-      enable-background="new 0 0 50 50"
     >
       <rect x="0" y="0" width="4" height="10" fill={props.color || "#1890ff"}>
         <animateTransform

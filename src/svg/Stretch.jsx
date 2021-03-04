@@ -7,7 +7,6 @@ export const Stretch = (props) => {
       width={props.width || "24px"}
       height={props.height || "30px"}
       viewBox="0 0 24 30"
-      senable-background="new 0 0 50 50"
     >
       <rect x="0" y="13" width="4" height="5" fill={props.color || "#1890ff"}>
         <animate
