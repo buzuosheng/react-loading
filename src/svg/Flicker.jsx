@@ -1,15 +1,15 @@
 import React from "react";
-const Loading7 = ({ width, height, color }) => {
+export const Flicker = (props) => {
   return (
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      width={width || "24px"}
-      height={height || "30px"}
+      width={props.width || "24px"}
+      height={props.height || "30px"}
       viewBox="0 0 24 30"
       enable-background="new 0 0 50 50"
     >
-      <rect x="0" y="0" width="4" height="20" fill={color || "#1890ff"}>
+      <rect x="0" y="0" width="4" height="20" fill={props.color || "#1890ff"}>
         <animate
           attributeName="opacity"
           attributeType="XML"
@@ -19,7 +19,7 @@ const Loading7 = ({ width, height, color }) => {
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="7" y="0" width="4" height="20" fill={color || "#1890ff"}>
+      <rect x="7" y="0" width="4" height="20" fill={props.color || "#1890ff"}>
         <animate
           attributeName="opacity"
           attributeType="XML"
@@ -29,7 +29,7 @@ const Loading7 = ({ width, height, color }) => {
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="14" y="0" width="4" height="20" fill={color || "#1890ff"}>
+      <rect x="14" y="0" width="4" height="20" fill={props.color || "#1890ff"}>
         <animate
           attributeName="opacity"
           attributeType="XML"
@@ -42,5 +42,3 @@ const Loading7 = ({ width, height, color }) => {
     </svg>
   );
 };
-
-export default Loading7;

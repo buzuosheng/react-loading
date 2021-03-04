@@ -1,11 +1,11 @@
 import React from "react";
-const Loading8 = ({ width, height, color }) => {
+export const StretchFlicker = (props) => {
   return (
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      width={width || "24px"}
-      height={height || "30px"}
+      width={props.width || "24px"}
+      height={props.height || "30px"}
       viewBox="0 0 24 30"
       enable-background="new 0 0 50 50"
     >
@@ -14,7 +14,7 @@ const Loading8 = ({ width, height, color }) => {
         y="10"
         width="4"
         height="10"
-        fill={color || "#1890ff"}
+        fill={props.color || "#1890ff"}
         opacity="0.2"
       >
         <animate
@@ -47,7 +47,7 @@ const Loading8 = ({ width, height, color }) => {
         y="10"
         width="4"
         height="10"
-        fill={color || "#1890ff"}
+        fill={props.color || "#1890ff"}
         opacity="0.2"
       >
         <animate
@@ -80,7 +80,7 @@ const Loading8 = ({ width, height, color }) => {
         y="10"
         width="4"
         height="10"
-        fill={color || "#1890ff"}
+        fill={props.color || "#1890ff"}
         opacity="0.2"
       >
         <animate
@@ -111,5 +111,3 @@ const Loading8 = ({ width, height, color }) => {
     </svg>
   );
 };
-
-export default Loading8;
