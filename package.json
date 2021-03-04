@@ -1,6 +1,6 @@
 {
   "name": "@buzuosheng/loading",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "author": "buzuosheng",
   "description": "CSS laoding Component implemented by React",
   "repository": "git@github.com:buzuosheng/my-react-loading.git",
