@@ -11,7 +11,6 @@ const loadingNames = [
   "Stretch",
   "StretchFlicker",
 ];
-loadingNames.includes(type) ? Spinner[type] : Spinner.Oval;
 
 export const Loading = (props) => {
   return (
