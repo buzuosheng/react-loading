@@ -15,7 +15,7 @@ const loadingNames = [
 
 export const Loading = (props) => {
   return (
-    <div>
+    <div className={props.className} style={props.style}>
       {React.createElement(
         loadingNames.includes(props.type) ? Spinner[props.type] : Spinner.Oval,
         { ...props }
