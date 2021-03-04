@@ -61,8 +61,7 @@ var Audio = function Audio(props) {
     xmlns: "http://www.w3.org/2000/svg",
     width: props.width || "24px",
     height: props.height || "24px",
-    viewBox: "0 0 24 24",
-    "enable-background": "new 0 0 50 50"
+    viewBox: "0 0 24 24"
   }, /*#__PURE__*/React__default['default'].createElement("rect", {
     x: "0",
     y: "0",
@@ -114,8 +113,7 @@ var Oval = function Oval(props) {
     xmlns: "http://www.w3.org/2000/svg",
     width: props.width || "40px",
     height: props.height || "40px",
-    viewBox: "0 0 40 40",
-    "enable-background": "new 0 0 40 40"
+    viewBox: "0 0 40 40"
   }, /*#__PURE__*/React__default['default'].createElement("path", {
     opacity: "0.2",
     fill: "#000",
@@ -140,8 +138,7 @@ var Flicker = function Flicker(props) {
     xmlns: "http://www.w3.org/2000/svg",
     width: props.width || "24px",
     height: props.height || "30px",
-    viewBox: "0 0 24 30",
-    "enable-background": "new 0 0 50 50"
+    viewBox: "0 0 24 30"
   }, /*#__PURE__*/React__default['default'].createElement("rect", {
     x: "0",
     y: "0",
@@ -190,8 +187,7 @@ var HalfCircle = function HalfCircle(props) {
     xmlns: "http://www.w3.org/2000/svg",
     width: props.width || "40px",
     height: props.height || "40px",
-    viewBox: "0 0 50 50",
-    "enable-background": "new 0 0 50 50"
+    viewBox: "0 0 50 50"
   }, /*#__PURE__*/React__default['default'].createElement("path", {
     fill: props.color || "#1890ff",
     d: "M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z"
@@ -212,8 +208,7 @@ var LittleCircle = function LittleCircle(props) {
     xmlns: "http://www.w3.org/2000/svg",
     width: props.width || "40px",
     height: props.height || "40px",
-    viewBox: "0 0 50 50",
-    "senable-background": "new 0 0 50 50"
+    viewBox: "0 0 50 50"
   }, /*#__PURE__*/React__default['default'].createElement("path", {
     fill: props.color || "#1890ff",
     d: "M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"
@@ -234,8 +229,7 @@ var Rain = function Rain(props) {
     xmlns: "http://www.w3.org/2000/svg",
     width: props.width || "24px",
     height: props.height || "30px",
-    viewBox: "0 0 24 30",
-    "enable-background": "new 0 0 50 50"
+    viewBox: "0 0 24 30"
   }, /*#__PURE__*/React__default['default'].createElement("rect", {
     x: "0",
     y: "0",
@@ -287,8 +281,7 @@ var Stretch = function Stretch(props) {
     xmlns: "http://www.w3.org/2000/svg",
     width: props.width || "24px",
     height: props.height || "30px",
-    viewBox: "0 0 24 30",
-    "senable-background": "new 0 0 50 50"
+    viewBox: "0 0 24 30"
   }, /*#__PURE__*/React__default['default'].createElement("rect", {
     x: "0",
     y: "13",
@@ -358,8 +351,7 @@ var StretchFlicker = function StretchFlicker(props) {
     xmlns: "http://www.w3.org/2000/svg",
     width: props.width || "24px",
     height: props.height || "30px",
-    viewBox: "0 0 24 30",
-    "enable-background": "new 0 0 50 50"
+    viewBox: "0 0 24 30"
   }, /*#__PURE__*/React__default['default'].createElement("rect", {
     x: "0",
     y: "10",
