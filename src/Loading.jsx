@@ -16,7 +16,7 @@ export const Loading = (props) => {
   return (
     <div className="porps.">
       {React.createElement(
-        componentName(props.type) ? Spinner[type] : Spinner.Oval,
+        loadingNames(props.type) ? Spinner[type] : Spinner.Oval,
         { ...props }
       )}
     </div>
