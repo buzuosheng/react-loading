@@ -6,6 +6,12 @@
   "repository": "git@github.com:buzuosheng/my-react-loading.git",
   "main": "/dist/loading.cjs",
   "module": "/dist/loading.es.js",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "React-component",
+    "ui"
+  ],
   "private": false,
   "files": [
     "src",
