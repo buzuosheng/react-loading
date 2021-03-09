@@ -1,4 +1,5 @@
 import React from "react";
+
 export const Stretch = (props) => {
   return (
     <svg
