@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/Loading.jsx',
   output: {
     filename: "index.js",
-    path: path.join(__dirname, "./dist/"),
+    path: path.join(__dirname, "./build/"),
     libraryTarget: 'umd',
     libraryExport: 'default',
   },
@@ -15,7 +15,7 @@ module.exports = {
     minimize: false,
   },
   resolve: {
-    extensions: ['.jsx']
+    extensions: ['.jsx', '.js', '.css']
   },
   module: {
     rules: [

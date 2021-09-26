@@ -58,6 +58,7 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "webpack": "webpack",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -78,5 +79,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "dependencies": {}
 }
